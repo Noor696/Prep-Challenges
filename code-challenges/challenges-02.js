@@ -10,11 +10,11 @@
 
 const reverseArray = (arr) => {
   // write your code here
-  let rarr2 = [];
+  let reverseArr2 = [];
   for (let i = arr.length - 1; i >= 0; i--) {
-      rarr2.push(arr[i]);
+      reverseArr2.push(arr[i]);
   }
-  return rarr2;
+  return reverseArr2;
 };
 
 // -------------------------------------------------------------------------------------------------------
